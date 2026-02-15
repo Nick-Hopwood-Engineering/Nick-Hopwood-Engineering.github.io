@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>This is the title</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    :root {
+      --line-height: 1rem;
+      --font-size: 14px;
+      --bg-color: #2D2D2D;
+      --fg-color: #fff8e7 ;
+      --neutral-background: var(--bg-color);
+      --neutral: grey;
+      --neutral-light: lightgrey;
+      --neutral-dark: darkgrey;
+      --neutral-extra-dark: #2d2d2d;
+      --highlight-color: var(--neutral-extra-dark);
+      --error: red;
+      --warning: yellow;
+      --notice: green;
+    }
+
+    html{
+      height: 100%;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100%;
+      background-color: var(--bg-color);
+      color: var(--fg-color);
+      font-family: "Atkinson Hyperlegible", sans-serif;
+      font-weight: 400;
+      font-size: var(--font-size);
+      line-height: var(--line-height);
+    }
+
+    main {
+      max-width: 60ch;
+      margin: auto;
+    }
+  
+    h1 {
+    text-align: center;
+  }
+
+    .wrapper {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+  <header>
+    
+    <p></p>
+  </header>
+  <main>
+    
+    
+    <h1>Nick Hopwood</h1>
+    <p></p>
+    <p></p>
+  </main>
+  <footer>
+    
+  </footer>
+  </div>
+  
+
+</body>
+</html>
+
